@@ -10,7 +10,7 @@ from streamlit_folium import st_folium
 import streamlit as st
 from streamlit_folium import folium_static
 
-df = pd.read_csv('folium_final.csv')
+df = pd.read_csv('Folium Map FINAL - Feuille 1.csv')
 
 def create_map():
   m = folium.Map(location=[4.74851, -6.6363], zoom_start=12)
